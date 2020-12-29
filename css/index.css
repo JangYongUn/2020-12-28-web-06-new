@@ -1,0 +1,40 @@
+/********** 공통 **********/
+.wrapper {width: 780px; margin: auto;}
+
+
+/********** .navi-wrapper **********/
+.navi-wrapper {background-color: black; display: flex; justify-content: space-between; align-items: center;}
+.navi-wrapper .navi-wrap {font-size: 1em; color: #f9f9f9; display: flex; align-items: center;}
+.navi-wrapper .navi {padding: 1em 1.5em 1em 1.5em; position: relative; cursor: pointer;}
+.navi-wrapper .navi-wrap .navi:hover {background-color: #ddd; color: black;}
+.navi-wrapper .navi .sub-navi {position: absolute; background-color: #fff; top: 3em; left: 0;}
+.navi-wrapper .navi .sub-navi .sub {color: black; padding: 0.5em 3em 0.5em 0.75em; line-height: 1.5em; }
+.navi-wrapper .navi .sub-navi .sub:hover {color: black; background-color: #ddd;}
+.navi-wrapper .sreach-wrap {color: #fff; font-size: 1em; padding: 1em;}
+.navi-wrapper .sreach-wrap:hover > .fa {background-color: red;}
+
+
+/********** .main-wrapper **********/
+.main-wrapper {}
+.main-wrapper .main-wrap {}
+.main-wrapper .img-wrap {position: relative;}
+.main-wrapper .img-wrap img {width: 100%;}
+.main-wrapper .main-title {text-align: center; position: absolute; color: #fff; bottom: 5%; left: 50%; transform: translateX(-50%);}
+.main-wrapper .main-title > p {font-size: 1.5em; padding-bottom: 1em;}
+.main-wrapper .main-title > span {font-size: 0.875em; font-weight: bold;}
+
+
+/********** .band-wrapper **********/
+.band-wrapper {padding: 4em 0;}
+.band-wrapper .band-wrap {}
+.band-wrapper .band {}
+.band-wrapper .band h2.title {font-size: 2em; padding-bottom: 0.875em; text-align: center;}
+.band-wrapper .band p.sub-title {color: #666; font-size: 1em; font-style: italic; padding-bottom: 1em; text-align: center;}
+.band-wrapper .band span.content {display: block; text-align: justify;}
+.band-wrapper .name-wrapper {padding-top: 5em; display: flex;}
+.name-wrapper .name-wrap {}
+.name-wrapper .name-wrap .name-title {}
+.name-wrapper .name-wrap .img-name {}
+.name-wrapper .name-wrap .img-name > img {width: 60%;}
+
+
