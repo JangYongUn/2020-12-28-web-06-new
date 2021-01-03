@@ -20,6 +20,9 @@
 .navi-wrapper .navi-kind{flex: 30% 0 0; display: flex; justify-content: flex-end;}
 
 
+.navi-wrapper .fa-bars {}
+.navi-wrapper .navi-main {}
+
 /********** .band-wrapper **********/
 
 
