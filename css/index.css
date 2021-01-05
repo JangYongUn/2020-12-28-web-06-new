@@ -5,15 +5,21 @@
 
 /********** .top-wrapper **********/
 .top-wrapper {background-color: #111; color: #f9f9f9; }
-.top-wrapper .top-wrap {margin: auto; width: 90%; display: flex; justify-content: space-between; align-items: center;}
-.top-wrapper .top-wrap .top {display: flex;}
-.top-wrapper > i {}
-.top-wrapper > p {}
-.top-wrapper .lang-wrapper {flex: 20% 0 0; text-align: right;}
-.top-wrapper .lang-wrap {}
+.top-wrapper .top-wrap {font-size: 0.875em; padding: 0.125em 0.5em; display: flex; justify-content: space-between;}
+.top-wrapper .top-wrap .top {display: flex; justify-content: left; align-items: center; padding-left: 2em;}
+.top-wrapper .top .top-icon .fa {padding: 0.725em 0.725em;}
+.top-wrapper .top .top-icon .fa:hover {color: #999;}
+.top-wrapper .top .top-about  {display: flex;}
+.top-wrapper .top .top-about .about {padding: 0.725em 0.725em; transition: all 0.3s;}
+.top-wrapper .top .top-about .about:hover {color: #999;}
+.top-wrapper .lang-wrapper {display: flex; align-items: center; padding-right: 4.5em;}
+.top-wrapper .lang-wrap {padding-right: 0.875em; position: relative;}
+.top-wrapper .lang-wrap .lang {position: absolute; top: 0; right: 0;}
+.top-wrapper .lang-wrap .lang .francais {}
+.top-wrapper .lang-wrap .lang .deutsch {}
 
 /********** .navi-wrapper **********/
-.navi-wrapper {display: flex; justify-content: space-between; align-items: center; padding: 2em 0;}
+/* .navi-wrapper {display: flex; justify-content: space-between; align-items: center; padding: 2em 0;}
 .navi-wrapper .navi-wrap{flex: 30% 0 0; display: flex;}
 .navi-wrapper .navi-logo{flex: 40% 0 0; text-align: center;}
 .navi-wrapper .navi-logo img {width: 14%;}
@@ -21,7 +27,7 @@
 
 
 .navi-wrapper .fa-bars {}
-.navi-wrapper .navi-main {}
+.navi-wrapper .navi-main {} */
 
 /********** .band-wrapper **********/
 
