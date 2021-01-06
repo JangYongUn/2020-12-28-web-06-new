@@ -5,6 +5,10 @@
 /********* 사용자함수 **********/
 
 
+	$('.lang-wrapper .lang-wrap').click(function () {
+		$('.lang').stop().slideToggle(500);
+	});
+
 /********* 이벤트선언 **********/
 var swiper = new Swiper('.swiper-container', {
 	slidesPerView: 1,

@@ -6,17 +6,18 @@
 /********** .top-wrapper **********/
 .top-wrapper {background-color: #111; color: #f9f9f9; }
 .top-wrapper .top-wrap {font-size: 0.875em; padding: 0.125em 0.5em; display: flex; justify-content: space-between;}
-.top-wrapper .top-wrap .top {display: flex; justify-content: left; align-items: center; padding-left: 2em;}
-.top-wrapper .top .top-icon .fa {padding: 0.725em 0.725em;}
+.top-wrapper .top-wrap .top {display: flex; justify-content: left; align-items: center; padding-left: 2em; cursor: pointer;}
+.top-wrapper .top .top-icon .fa {padding: 0.725em 0.725em; transition: all 0.3s;}
 .top-wrapper .top .top-icon .fa:hover {color: #999;}
 .top-wrapper .top .top-about  {display: flex;}
 .top-wrapper .top .top-about .about {padding: 0.725em 0.725em; transition: all 0.3s;}
 .top-wrapper .top .top-about .about:hover {color: #999;}
-.top-wrapper .lang-wrapper {display: flex; align-items: center; padding-right: 4.5em;}
+.top-wrapper .lang-wrapper {display: flex; align-items: center; padding-right: 4.5em; cursor: pointer;}
 .top-wrapper .lang-wrap {padding-right: 0.875em; position: relative;}
-.top-wrapper .lang-wrap .lang {position: absolute; top: 0; right: 0;}
-.top-wrapper .lang-wrap .lang .francais {}
-.top-wrapper .lang-wrap .lang .deutsch {}
+.top-wrapper .lang-wrap .lang {position: absolute; color: #111; top: 1.875em; right:-1em; background-color: #f9f9f9;}
+.top-wrapper .lang-wrap .lang:hover {display: block !important;}
+.top-wrapper .lang-wrap .lang .francais {margin: 0.875em 1.5em; border-bottom: #999;}
+.top-wrapper .lang-wrap .lang .deutsch {margin: 1.125em 1.5em;}
 
 /********** .navi-wrapper **********/
 /* .navi-wrapper {display: flex; justify-content: space-between; align-items: center; padding: 2em 0;}
@@ -29,11 +30,21 @@
 .navi-wrapper .fa-bars {}
 .navi-wrapper .navi-main {} */
 
-/********** .band-wrapper **********/
+/********** .main-wrapper **********/
+.main-wrapper {position: relative;}
+.main-wrapper .main-wrap {}
+.main-wrapper .main-wrap .main {}
+.main-wrapper .main-wrap .main .main-img {width: 100%;}
+.main-wrapper .main-wrap .main .main-title-wrapper {position: absolute; top: 50%; right: 0; transform: translate(0, -50%);}
+.main-wrapper .main-wrap .main .main-title-wrapper .main-title-wrap1 {}
+.main-wrapper .main-wrap .main .main-title-wrapper .main-title-wrap1 .main-title1 {border: 1px solid #111; background-color: #111; color: #f9f9f9; border-radius: 10px; text-align: center;}
+.main-wrapper .main-wrap .main .main-title-wrapper .main-title-wrap2 {}
+.main-wrapper .main-wrap .main .main-title-wrapper .main-title-wrap2 .main-title2 {font-size: 5em; text-align: right;}
+.main-wrapper .main-wrap .main .main-title-wrapper .main-title-wrap2 .main-sub-title {}
 
 
+/********** .product-wrapper **********/
 
-/********** .tour-wrapper **********/
 
 
 
