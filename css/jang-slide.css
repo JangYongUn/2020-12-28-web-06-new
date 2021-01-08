@@ -58,7 +58,7 @@ a {color: inherit; text-decoration: none;}
 
 .prd {user-select: none; background-color: #fff; padding: 0 1em; position: relative;}
 .prd .bt-like {}
-.prd .img-wrap {position: relative;}
+.prd .img-wrap {width: 100%; position: relative;}
 .prd:hover .img-wrap .img-front {opacity: 0;}
 .prd .img-wrap > .img-front {position: absolute; top: 0; left: 0; transition: all 0.5s;}
 .prd:hover .quick-wrap {opacity: .6;}
