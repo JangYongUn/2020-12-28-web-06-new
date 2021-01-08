@@ -1,0 +1,34 @@
+[
+	{
+		"icon": "",
+		"quickLink": "#",
+		"imgBack": "../img/women1.jpg",
+		"imgFront": [
+			{"big": "../img/women1-1.jpg"}
+		],
+		"title": "Cashmere Tank + Bag",
+		"price": "$39.00 – $98.00",
+	},
+	{
+		"icon": "",
+		"quickLink": "#",
+		"imgBack": "../img/women2.jpg",
+		"imgFront": [
+			{"big": "../img/women2-1.jpg"}
+		],
+		"title": "Micro Form Bag",
+		"price": "$98.00",
+	},
+	{
+        "icon": [
+            {"title": "NEW", "bg": "#f9f9f9"}
+        ],
+		"quickLink": "#",
+		"imgBack": "../img/women3.jpg",
+		"imgFront": [
+			{"big": "../img/women3-1.jpg"}
+		],
+		"title": "Cashmere Tank",
+		"price": "$39.00",
+	},
+]
