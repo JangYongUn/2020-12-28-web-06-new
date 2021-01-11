@@ -61,15 +61,16 @@ a {color: inherit; text-decoration: none;}
 .prd .img-wrap {width: 100%; position: relative;}
 .prd:hover .img-wrap .img-front {opacity: 0;}
 .prd .img-wrap > .img-front {position: absolute; top: 0; left: 0; transition: all 0.5s;}
-.prd:hover .quick-wrap {opacity: .6;}
+.prd:hover .quick-wrap {opacity: 0.6;}
 .prd .title-wrap-sell {padding: 0.875em 0; text-align: left;}
 .prd .title-wrap-sell .title-sell {cursor: pointer;}
-
-
 .prd .price-wrap {color: #888;}
-/* 
+
+
+
 .prd .icon-wrap {position: absolute; z-index: 5; top: 1em; right: 2em; display: flex; flex-direction: column; justify-content: flex-start; align-items: flex-start; font-size: 0.875em;}
-.prd .icon {color: #f9f9f9; font-weight: bold; padding: 0.75em; margin-bottom: 0.5em; border-radius: 0.25em;} */
+.prd .icon-wrap .quick-wrap:hover .bt-like {z-index: 10; background-color: #f9f9f9;}
+/* .prd .icon {color: #f9f9f9; font-weight: bold; padding: 0.75em; margin-bottom: 0.5em; border-radius: 0.25em;} */ 
 /* 
 .prd .quick-wrap {position: absolute; z-index: 5; top: 1em; right: 2em; padding: 0.75em; color: #f9f9f9; opacity: 0; background-color: #000; border-radius: 0.25em; font-size: 0.875em; cursor: pointer; display: flex; align-items: center; transition: all 0.3s; overflow: hidden;}
 .prd .quick-wrap i {display: inline-block;}
